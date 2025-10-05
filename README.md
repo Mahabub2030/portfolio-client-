@@ -1,78 +1,93 @@
-# Mahabub Alam Portfolio (Frontend)
+# Mahabub Alam Portfolio Website
 
-![Portfolio Banner](./public/banner.png)
+## Overview
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+This is a **personal portfolio website** built with **Next.js, TypeScript, Tailwind CSS** on the frontend, and **Express.js + Prisma + PostgreSQL** on the backend.  
+It showcases personal projects, blogs, and an About Me section while providing a secure dashboard for the portfolio owner to manage content.
 
 ---
 
-## Project Overview
+## 🎥 Demo Video
 
-This is the **frontend of my personal portfolio website**, built with **Next.js** and **TypeScript**.  
-The portfolio allows public visitors to explore my **About Me section, Projects, and Blogs**, while providing a secure **owner dashboard** to manage content dynamically.
-
-The site is fully **responsive**, optimized for performance, and provides a **clean, modern UI/UX**.
+Watch the live demo video here:  
+[Portfolio Demo Video](https://drive.google.com/file/d/1M0-X-6OBNa0RNQdR0Z66nCu2Az_SyJES/view?usp=sharing)
 
 ---
 
-## Features
+## 🔗 Live Website
+
+Check out the live deployment here:  
+[https://my-profilo-8l2uq4ugd-mahabub2030s-projects.vercel.app/](https://my-profilo-8l2uq4ugd-mahabub2030s-projects.vercel.app/)
+
+---
+
+## 💻 GitHub Repositories
+
+### Frontend
+
+- **Next.js + TypeScript + Tailwind CSS**
+- Repository: [https://github.com/Mahabu](https://github.com/Mahabu)
+
+### Backend
+
+- **Express.js + Prisma + PostgreSQL + JWT Authentication**
+- Repository: [https://github.com/Mahabub2030/portfolio-server](https://github.com/Mahabub2030/portfolio-server)
+
+---
+
+## 🔐 Admin Credentials
+
+Use these credentials to access the owner dashboard:
+
+- **Email:** admin@gmail.com
+- **Password:** 20302030@
+
+---
+
+## ⚡ Features
 
 ### Public Pages
 
-- **About Me Section** – Personal info, education, skills, and work experience.
-- **Projects Showcase** – Display projects with thumbnail, live link, description, and features.
-- **Blog Management (Public)** – View all blogs and individual blog posts.
-- **Responsive Design** – Works perfectly on mobile, tablet, and desktop.
-- **Optimized Loading** – Uses SSG and ISR for fast page loads.
+- About Me section with personal info, skills, and experience
+- Projects showcase with thumbnails, descriptions, live links, and features
+- Blog listing and individual blog pages
+- Responsive design with SSG/ISR for fast performance
 
-### Private Pages (Owner Only)
+### Owner-Only Pages
 
-- **Authentication & Authorization** – Secure login system using JWT.
-- **Dashboard** – Manage blogs and projects dynamically.
-- **Rich Text Editor** – Create/edit blog posts and project content with formatting options.
+- Secure login system (JWT + bcrypt)
+- Dashboard for managing blogs and projects
+- Rich text editor for creating/editing content (React Quill)
+- Notifications using `react-hot-toast`
 
 ### UI/UX Enhancements
 
-- Smooth transitions and animations
+- Smooth animations and transitions
 - Carousel and cards for project showcase
-- Skeleton loaders for better experience
-- Notifications using `react-hot-toast`
+- Lazy loading and skeleton loaders for better experience
+- Form validation and user-friendly error messages
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 **Frontend:**
 
-- [Next.js](https://nextjs.org/) – React framework for production
-- [TypeScript](https://www.typescriptlang.org/) – Strong typing for better development
-- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
-- [react-hot-toast](https://react-hot-toast.com/) – Toast notifications
-- [React Quill](https://github.com/zenoamaro/react-quill) – Rich text editor
+- Next.js, TypeScript, Tailwind CSS, React Hot Toast, React Quill
 
 **Backend:**
 
-- Node.js + Express.js
-- PostgreSQL + Prisma ORM
-- JWT + bcrypt for secure authentication
+- Node.js, Express.js, Prisma ORM, PostgreSQL, JWT, bcrypt
 
 ---
 
-## Installation
+## ⚙️ Installation & Setup
 
-### Clone Repository
+### Frontend
 
 ```bash
-git clone https://github.com/<your-username>/portfolio-frontend.git
+git clone https://github.com/Mahabu
 cd portfolio-frontend
+npm install
+npm run dev
 ```
